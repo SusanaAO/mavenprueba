@@ -17,7 +17,7 @@
         </repository>
         <repository>
           <id>my-app</id>
-          <url>https://maven.pkg.github.com/bsneyder/mavenprueba</url>
+          <url>https://maven.pkg.github.com/Roggerbogota13/mavenprueba</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
@@ -30,7 +30,7 @@
     <server>
       <id>my-app</id>
       <username>${{ secrets.USERNAME }}</username>
-      <password>${{ secrets.GITHUBTOKEN }}</password>
+      <password>${{ secrets.TOKEN }}</password>
     </server>
   </servers>
 </settings>
