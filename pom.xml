@@ -33,7 +33,7 @@
    <repository>
      <id>my-app</id>
      <name>my-app</name>
-     <url>https://maven.pkg.github.com/Roggerbogota13/mavenprueba</url>
+     <url>https://maven.pkg.github.com/SusanaAO/mavenprueba</url>
      <releases><enabled>true</enabled></releases>
      <snapshots><enabled>true</enabled></snapshots>
    </repository>
