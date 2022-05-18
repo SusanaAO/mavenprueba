@@ -43,9 +43,9 @@ jobs:
         env:
           GITHUB_USERNAME: ${{ secrets.USERNAME }}
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-       # run: mvn --settings settings.xml --file pom.xml deploy
+        run: mvn --settings settings.xml --file pom.xml deploy
        # run: mvn clean source:jar deploy -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -Dmaven.install.skip=true -DdeplyAtEnd=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/jesusrh12/ffm-ne-back-jv-lib-commons'
-        run: mvn source:jar deploy -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/SusanaAO/mavenprueba'
+       # run: mvn source:jar deploy -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/SusanaAO/mavenprueba'
         
   push_to_registries:
     name: Push Docker image to multiple registries
